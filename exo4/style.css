@@ -1,0 +1,24 @@
+ul{
+	list-style-type: none; /*enlève les puces de la liste*/
+	margin: 0;
+	padding: 0;
+	border : solid 1px #a3c0d5;  /* On applique des bordures à la balise ul */
+	width: 20%; /*pour pas que ça prenne toute la largeur de la page*/
+}
+
+li{
+	margin: 0; /* On retire les marges intérieures et extérieures */
+padding: 0; 
+border-bottom: 1px solid #a3c0d5;  /* Ici, on affiche une bordure uniquement en bas */
+}
+
+a{
+	text-decoration: none; /* enlève le soulignement des liens*/
+	display: block; /*pour que le hover prenne en compte tout le block car <a> est inline en principe*/
+	padding-left:1.5em;
+}
+
+a:hover{
+background-color:#e9eefb; 
+color:#294f79; 
+}

@@ -1,0 +1,16 @@
+#conteneur{
+	border:1px solid black;
+	overflow: hidden;
+	background-color: #bfc5e4;
+}
+#img_1{
+	float: right;
+	
+}
+#img_2{
+	float:left;
+	
+}	
+p{
+	text-align: center;
+}

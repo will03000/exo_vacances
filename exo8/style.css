@@ -1,0 +1,39 @@
+body{
+	display: flex;
+	flex-direction: column;
+}
+header{
+	color:red;
+	width: 200px;
+	border : solid 1px black;
+}
+nav{
+	height: 150px;
+}
+ul{
+	list-style-type: none; /*enlève les puces de la liste*/
+	margin: 0;
+	padding: 0;
+	border : solid 1px black;  /* On applique des bordures à la balise ul */
+}
+li{
+	margin: 0; /* On retire les marges intérieures et extérieures */
+	padding: 0; 
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+article{
+	display: flex;
+}
+#article{
+	display: flex;
+	border : solid 1px black;
+	flex: 1 1 auto ;
+	flex-direction: column;
+}
+#conteneur{
+	display: flex;
+	flex: 1;
+}

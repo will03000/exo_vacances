@@ -1,0 +1,33 @@
+#colonne1{
+	width: 20%;
+	float: left;
+	border : solid 1px #a3c0d5;
+	background-color: red;
+}
+#colonne2{
+	width: 15%;
+	float: right;
+	border : solid 1px #a3c0d5;
+	background-color:blue;
+}
+#centre{
+	width:65%;
+	border : solid 1px #a3c0d5;
+	background-color:green;
+	margin-left: 260px;
+}
+img{
+	height: 100px;
+	width: 100px;
+	padding-left:4em;
+}
+ul{
+	list-style-type: none; /*enlève les puces de la liste*/
+	margin: 0;
+	padding: 0;
+}
+li{
+	margin: 0; /* On retire les marges intérieures et extérieures */
+	padding: 0; 	
+	border-bottom: 1px solid #a3c0d5;  /* Ici, on affiche une bordure uniquement en bas */
+}
